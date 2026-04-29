@@ -143,15 +143,3 @@ tk.Button(tab_filter, text="Применить фильтры", command=apply_fi
 
 refresh_table()
 root.mainloop()
-```
-
-## 3. Файл `.gitignore`
-
-```
-__pycache__/
-*.pyc
-*.log
-*.swp
-*.bak
-```
-*(Если хотите хранить данные в Git — уберите `diary.json` из .gitignore)*
