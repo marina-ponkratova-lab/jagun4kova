@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+```
+
+## 3. Файл `.gitignore`
+
+```
+__pycache__/
+*.pyc
+*.log
+*.swp
+*.bak
+```
+*(Если хотите хранить данные в Git — уберите `diary.json` из .gitignore)*
+
